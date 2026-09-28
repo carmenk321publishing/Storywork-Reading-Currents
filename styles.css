@@ -1,0 +1,62 @@
+:root {
+  --bg-top: #eef3fb;
+  --bg-bottom: #dce8f9;
+  --accent-dark: #1f3a5f;
+  --text-main: #23324a;
+  --text-muted: #5b6b84;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+  min-height: 100vh;
+}
+
+.site-header {
+  padding: 22px 32px;
+  font-weight: 700;
+  color: var(--accent-dark);
+}
+
+.page-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+h1 { color: var(--accent-dark); }
+
+.status-note {
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.site-footer {
+  text-align: center;
+  padding: 30px;
+}
+
+.atlantis-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  opacity: 0.85;
+}
+
+.atlantis-credit img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.atlantis-credit span {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
